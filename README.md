@@ -1,6 +1,6 @@
-# Yachts
+# Yacht
 
-Large boats.
+A large boat.
 
 ### Installing
 ```
