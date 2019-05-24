@@ -12,6 +12,16 @@ npm i
 npm start
 ```
 
+### Consuming in your app
+```
+npm i yachts
+```
+
+```
+const yachts = require('yachts');
+console.log(yachts);
+```
+
 ## Built With
 
 * [Chalk](https://www.npmjs.com/package/chalk) - terminal string styling
