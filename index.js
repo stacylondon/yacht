@@ -1,5 +1,5 @@
-const chalk = require('chalk');
 const figlet = require('figlet');
+const myYachts = require('./myYachts');
 
 figlet('Yachts', function(err, data) {
   if (err) {
@@ -8,15 +8,5 @@ figlet('Yachts', function(err, data) {
     return;
   }
   console.log(data);
-  console.log(chalk.blue.bold(`
-                __/___            
-          _____/______|           
-  _______/_____\\_______\\_____     
-  \\              < < <       |    
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`));
-
-  console.log('\n');
-  console.log('$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$');
-  console.log(chalk.white.bgBlue.bold('    You\'re not invited on my yacht.     '));
-  console.log('$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$');
+  myYachts.getYacht();
 });
