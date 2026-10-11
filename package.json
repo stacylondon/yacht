@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "a large boat",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -18,7 +19,7 @@
   },
   "homepage": "https://github.com/stacylondon/yacht#readme",
   "dependencies": {
-    "chalk": "^2.4.2",
-    "figlet": "^1.2.1"
+    "chalk": "^6.0.1",
+    "figlet": "^1.12.0"
   }
 }
