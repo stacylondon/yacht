@@ -18,13 +18,13 @@ npm i yachts
 ```
 
 ```
-const yachts = require('yachts');
+import yachts from 'yachts';
 console.log(yachts);
 ```
 
 ## Built With
 
-* [Chalk](https://www.npmjs.com/package/chalk) - terminal string styling
+* [chalk](https://www.npmjs.com/package/chalk) - terminal string styling
 * [figlet](https://www.npmjs.com/package/figlet) - turn a string of text into ASCII art
 
 ## Authors
